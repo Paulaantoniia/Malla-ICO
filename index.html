@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular - Ingeniería Comercial</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <header>
+        <h1>Malla Interactiva de Ingeniería Comercial</h1>
+        <p>Universidad Santo Tomás</p>
+    </header>
+
+    <div id="malla-container">
+        <div class="semestre">
+            <h2>Semestre 1</h2>
+            <div class="ramo" data-id="fundamentos-de-administracion" data-requisitos="">Fundamentos de Administración</div>
+            <div class="ramo" data-id="economia-sustentabilidad-y-emprendimiento" data-requisitos="">Economía, Sustentabilidad y Emprendimiento</div>
+            <div class="ramo" data-id="introduccion-al-analisis-de-datos" data-requisitos="">Introducción al Análisis de Datos</div>
+            <div class="ramo" data-id="introduccion-a-la-matematica" data-requisitos="">Introducción a la Matemática</div>
+            <div class="ramo" data-id="contabilidad" data-requisitos="">Contabilidad</div>
+            <div class="ramo" data-id="taller-de-competencias-comunicativas" data-requisitos="">Taller de Competencias Comunicativas</div>
+            <div class="ramo" data-id="taller-de-competencias-para-el-aprendizaje" data-requisitos="">Taller de Competencias para el Aprendizaje</div>
+        </div>
+
+        <div class="semestre">
+            <h2>Semestre 2</h2>
+            <div class="ramo" data-id="administracion-estrategica" data-requisitos="fundamentos-de-administracion">Administración Estratégica</div>
+            <div class="ramo" data-id="matematica" data-requisitos="introduccion-a-la-matematica">Matemática</div>
+            <div class="ramo" data-id="fundamentos-de-microeconomia" data-requisitos="">Fundamentos de Microeconomía</div>
+            <div class="ramo" data-id="contabilidad-financiera" data-requisitos="contabilidad">Contabilidad Financiera</div>
+            <div class="ramo" data-id="cultura-y-valores" data-requisitos="">Cultura y Valores</div>
+            <div class="ramo" data-id="taller-de-desarrollo-personal-1" data-requisitos="">Taller de Desarrollo Personal</div>
+        </div>
+
+        <div class="semestre">
+            <h2>Semestre 3</h2>
+            <div class="ramo" data-id="estrategia-competitiva" data-requisitos="administracion-estrategica">Estrategia Competitiva</div>
+            <div class="ramo" data-id="fundamentos-de-marketing" data-requisitos="administracion-estrategica">Fundamentos de Marketing</div>
+            <div class="ramo" data-id="calculo-i" data-requisitos="matematica">Cálculo I</div>
+            <div class="ramo" data-id="fundamentos-de-macroeconomia" data-requisitos="">Fundamentos de Macroeconomía</div>
+            <div class="ramo" data-id="ingles-basico-i" data-requisitos="">Inglés Básico I</div>
+            <div class="ramo" data-id="persona-y-sentido" data-requisitos="">Persona y Sentido</div>
+            <div class="ramo" data-id="taller-de-desarrollo-personal-2" data-requisitos="">Taller de Desarrollo Personal</div>
+        </div>
+
+        <div class="semestre">
+            <h2>Semestre 4</h2>
+            <div class="ramo" data-id="derecho-comercial-y-laboral" data-requisitos="">Derecho Comercial y Laboral</div>
+            <div class="ramo" data-id="innovacion-en-modelo-de-negocios" data-requisitos="economia-sustentabilidad-y-emprendimiento">Innovación en Modelo de Negocios</div>
+            <div class="ramo" data-id="estadistica-i" data-requisitos="matematica">Estadística I</div>
+            <div class="ramo" data-id="microeconomia" data-requisitos="fundamentos-de-microeconomia">Microeconomía</div>
+            <div class="ramo" data-id="costos-para-la-toma-de-decisiones" data-requisitos="contabilidad-financiera">Costos para la Toma de Decisiones</div>
+            <div class="ramo" data-id="ingles-basico-ii" data-requisitos="ingles-basico-i">Inglés Básico II</div>
+        </div>
+
+        <div class="semestre">
+            <h2>Semestre 5</h2>
+            <div class="ramo" data-id="gestion-de-personas" data-requisitos="derecho-comercial-y-laboral,administracion-estrategica">Gestión de Personas</div>
+            <div class="ramo" data-id="gestion-de-la-innovacion" data-requisitos="innovacion-en-modelo-de-negocios">Gestión de la Innovación</div>
+            <div class="ramo" data-id="metodos-cuantitativos-para-la-gestion" data-requisitos="calculo-i,fundamentos-de-microeconomia">Métodos Cuantitativos para la Gestión</div>
+            <div class="ramo" data-id="macroeconomia" data-requisitos="fundamentos-de-macroeconomia">Macroeconomía</div>
+            <div class="ramo" data-id="administracion-financiera" data-requisitos="costos-para-la-toma-de-decisiones">Administración Financiera</div>
+            <div class="ramo" data-id="ingles-intermedio-i" data-requisitos="ingles-basico-ii">Inglés Intermedio I</div>
+            <div class="ramo" data-id="evaluacion-de-competencias-i" data-requisitos="fundamentos-de-administracion,economia-sustentabilidad-y-emprendimiento,introduccion-al-analisis-de-datos,introduccion-a-la-matematica,contabilidad,taller-de-competencias-comunicativas,taller-de-competencias-para-el-aprendizaje,administracion-estrategica,matematica,fundamentos-de-microeconomia,contabilidad-financiera,cultura-y-valores,taller-de-desarrollo-personal-1,estrategia-competitiva,fundamentos-de-marketing,calculo-i,fundamentos-de-macroeconomia,ingles-basico-i,persona-y-sentido,taller-de-desarrollo-personal-2,derecho-comercial-y-laboral,innovacion-en-modelo-de-negocios,estadistica-i,microeconomia,costos-para-la-toma-de-decisiones,ingles-basico-ii">Evaluación de Competencias I</div>
+        </div>
+        
+        <div class="semestre">
+            <h2>Semestre 6</h2>
+            <div class="ramo" data-id="comportamiento-y-desarrollo-organizacional" data-requisitos="gestion-de-personas">Comportamiento y Desarrollo Organizacional</div>
+            <div class="ramo" data-id="investigacion-de-mercado" data-requisitos="fundamentos-de-marketing,estadistica-i">Investigación de Mercado</div>
+            <div class="ramo" data-id="metodos-avanzados-en-estadistica" data-requisitos="metodos-cuantitativos-para-la-gestion,estadistica-i">Métodos Avanzados en Estadística</div>
+            <div class="ramo" data-id="comercio-internacional" data-requisitos="macroeconomia">Comercio Internacional</div>
+            <div class="ramo" data-id="mercado-de-capitales" data-requisitos="estadistica-i">Mercado de Capitales</div>
+            <div class="ramo" data-id="ingles-intermedio-ii" data-requisitos="ingles-intermedio-i">Inglés Intermedio II</div>
+        </div>
+
+        <div class="semestre">
+            <h2>Semestre 7</h2>
+            <div class="ramo" data-id="marketing-estrategico" data-requisitos="investigacion-de-mercado">Marketing Estratégico</div>
+            <div class="ramo" data-id="econometria" data-requisitos="metodos-avanzados-en-estadistica,metodos-cuantitativos-para-la-gestion">Econometría</div>
+            <div class="ramo" data-id="gestion-de-operaciones" data-requisitos="metodos-cuantitativos-para-la-gestion">Gestión de Operaciones</div>
+            <div class="ramo" data-id="electivo-i" data-requisitos="">Electivo I</div>
+            <div class="ramo" data-id="finanzas-corporativas" data-requisitos="mercado-de-capitales">Finanzas Corporativas</div>
+            <div class="ramo" data-id="ingles-avanzado-i" data-requisitos="ingles-intermedio-ii">Inglés Avanzado I</div>
+        </div>
+
+        <div class="semestre">
+            <h2>Semestre 8</h2>
+            <div class="ramo" data-id="gobernanza-y-control-estrategico" data-requisitos="estrategia-competitiva">Gobernanza y Control Estratégico</div>
+            <div class="ramo" data-id="consultoria-aplicada-a-organizaciones" data-requisitos="gestion-de-la-innovacion">Consultoría Aplicada a Organizaciones</div>
+            <div class="ramo" data-id="analisis-de-datos" data-requisitos="introduccion-al-analisis-de-datos,estadistica-i">Análisis de Datos</div>
+            <div class="ramo" data-id="electivo-ii" data-requisitos="">Electivo II</div>
+            <div class="ramo" data-id="formulacion-y-evaluacion-de-proyectos" data-requisitos="finanzas-corporativas">Formulación y Evaluación de Proyectos</div>
+            <div class="ramo" data-id="ingles-avanzado-ii" data-requisitos="ingles-avanzado-i">Inglés Avanzado II</div>
+        </div>
+
+        <div class="semestre">
+            <h2>Semestre 9</h2>
+            <div class="ramo" data-id="etica-y-responsabilidad-social" data-requisitos="gobernanza-y-control-estrategico">Ética y Responsabilidad Social</div>
+            <div class="ramo" data-id="politicas-publicas-innovacion-y-emprendimiento" data-requisitos="gestion-de-la-innovacion,macroeconomia">Políticas Públicas, Innovación y Emprendimiento</div>
+            <div class="ramo" data-id="simulacion-de-negocios" data-requisitos="analisis-de-datos">Simulación de Negocios</div>
+            <div class="ramo" data-id="practica-profesional" data-requisitos="fundamentos-de-administracion,economia-sustentabilidad-y-emprendimiento,introduccion-al-analisis-de-datos,introduccion-a-la-matematica,contabilidad,taller-de-competencias-comunicativas,taller-de-competencias-para-el-aprendizaje,administracion-estrategica,matematica,fundamentos-de-microeconomia,contabilidad-financiera,cultura-y-valores,taller-de-desarrollo-personal-1,estrategia-competitiva,fundamentos-de-marketing,calculo-i,fundamentos-de-macroeconomia,ingles-basico-i,persona-y-sentido,taller-de-desarrollo-personal-2,derecho-comercial-y-laboral,innovacion-en-modelo-de-negocios,estadistica-i,microeconomia,costos-para-la-toma-de-decisiones,ingles-basico-ii,gestion-de-personas,gestion-de-la-innovacion,metodos-cuantitativos-para-la-gestion,macroeconomia,administracion-financiera,ingles-intermedio-i,evaluacion-de-competencias-i,comportamiento-y-desarrollo-organizacional,investigacion-de-mercado,metodos-avanzados-en-estadistica,comercio-internacional,mercado-de-capitales,ingles-intermedio-ii,marketing-estrategico,econometria,gestion-de-operaciones,electivo-i,finanzas-corporativas,ingles-avanzado-i,gobernanza-y-control-estrategico,consultoria-aplicada-a-organizaciones,analisis-de-datos,electivo-ii,formulacion-y-evaluacion-de-proyectos,ingles-avanzado-ii">Práctica Profesional</div>
+            <div class="ramo" data-id="electivo-iii" data-requisitos="">Electivo III</div>
+            <div class="ramo" data-id="evaluacion-de-competencias-ii" data-requisitos="fundamentos-de-administracion,economia-sustentabilidad-y-emprendimiento,introduccion-al-analisis-de-datos,introduccion-a-la-matematica,contabilidad,taller-de-competencias-comunicativas,taller-de-competencias-para-el-aprendizaje,administracion-estrategica,matematica,fundamentos-de-microeconomia,contabilidad-financiera,cultura-y-valores,taller-de-desarrollo-personal-1,estrategia-competitiva,fundamentos-de-marketing,calculo-i,fundamentos-de-macroeconomia,ingles-basico-i,persona-y-sentido,taller-de-desarrollo-personal-2,derecho-comercial-y-laboral,innovacion-en-modelo-de-negocios,estadistica-i,microeconomia,costos-para-la-toma-de-decisiones,ingles-basico-ii,gestion-de-personas,gestion-de-la-innovacion,metodos-cuantitativos-para-la-gestion,macroeconomia,administracion-financiera,ingles-intermedio-i,evaluacion-de-competencias-i,comportamiento-y-desarrollo-organizacional,investigacion-de-mercado,metodos-avanzados-en-estadistica,comercio-internacional,mercado-de-capitales,ingles-intermedio-ii,marketing-estrategico,econometria,gestion-de-operaciones,electivo-i,finanzas-corporativas,ingles-avanzado-i,gobernanza-y-control-estrategico,consultoria-aplicada-a-organizaciones,analisis-de-datos,electivo-ii,formulacion-y-evaluacion-de-proyectos,ingles-avanzado-ii">Evaluación de Competencias II</div>
+        </div>
+
+        <div class="semestre">
+            <h2>Semestre 10</h2>
+            <div class="ramo" data-id="seminario-de-habilidades-para-la-gestion" data-requisitos="gobernanza-y-control-estrategico">Seminario de Habilidades para la Gestión</div>
+            <div class="ramo" data-id="plan-de-negocios" data-requisitos="gobernanza-y-control-estrategico,formulacion-y-evaluacion-de-proyectos">Plan de Negocios</div>
+            <div class="ramo" data-id="electivo-iv" data-requisitos="">Electivo IV</div>
+        </div>
+    </div>
+    
+    <div id="alerta-requisitos" class="alerta oculto">
+        <div class="alerta-contenido">
+            <span class="cerrar-alerta">&times;</span>
+            <strong>Ramo Bloqueado</strong>
+            <p>Para aprobar este ramo, primero necesitas aprobar:</p>
+            <ul id="lista-requisitos"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
